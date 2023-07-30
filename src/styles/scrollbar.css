@@ -1,0 +1,21 @@
+/* styles/scrollbar.css */
+/* Customize scrollbar track */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Customize scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #4f46e5; /* Change this color to your desired thumb color */
+  border-radius: 4px;
+}
+
+/* Customize scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #332d9c; /* Change this color to your desired thumb color on hover */
+}
+
+/* Customize scrollbar track when scrollbar is not hovering */
+::-webkit-scrollbar-track {
+  background-color: #15162c; /* Change this color to your desired track color */
+}
