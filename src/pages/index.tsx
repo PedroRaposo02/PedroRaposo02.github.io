@@ -2,10 +2,10 @@ import { type NextPage } from "next";
 import Head from "next/head";
 import { Navbar } from "~/components/Navbar";
 import { type NavbarPropList, type NavbarProp } from "~/types";
-import { HomeSection } from "./home/Home";
-import { AboutSection } from "./home/About";
-import { ProjectSection } from "./home/Projects";
-import { ContactSection } from "./home/Contacts";
+import HomeSection from "./home/Home";
+import AboutSection from "./home/About";
+import ProjectSection from "./home/Projects";
+import ContactSection from "./home/Contacts";
 
 
 const aboutSection: NavbarProp = { id: "aboutSection", name: "About" };

@@ -1,6 +1,7 @@
+import React from "react";
 import { Section } from "~/components/Section";
 
-export const ContactSection = () => {
+const ContactSection = () => {
   return (
     <Section
       sectionProps={{
@@ -11,3 +12,5 @@ export const ContactSection = () => {
     </Section>
   );
 };
+
+export default ContactSection;

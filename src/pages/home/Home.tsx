@@ -1,6 +1,7 @@
+import React from "react";
 import { Section } from "~/components/Section";
 
-export const HomeSection = () => {
+const HomeSection = () => {
   return (
     <Section
       sectionProps={{
@@ -12,3 +13,5 @@ export const HomeSection = () => {
     </Section>
   );
 };
+
+export default HomeSection;
