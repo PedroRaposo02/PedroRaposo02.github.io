@@ -1,8 +1,8 @@
 export const config = {
-  name: "John Doe",
-  role: "Backend Developer",
-  tagline: "Building scalable systems in the dark.",
-  email: "hello@example.com",
+  name: "Pedro Raposo",
+  role: "Backend / Software Engineer",
+  tagline: "Detail-oriented, enthusiastic, and ready to contribute to team success.",
+  email: "peraposo@hotmail.com",
   github: "https://github.com/",
   linkedin: "https://linkedin.com/",
 };

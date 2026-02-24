@@ -4,21 +4,21 @@ export const skillsData = [
   {
     category: "Languages & Frameworks",
     icon: Code,
-    items: ["Go", "Rust", "Python", "Node.js", "TypeScript"],
+    items: ["Python", "JavaScript", "TypeScript", "Java", "Django", "HTML/CSS"],
   },
   {
-    category: "Databases & Storage",
+    category: "Databases",
     icon: Database,
-    items: ["PostgreSQL", "Redis", "MongoDB", "Elasticsearch", "Kafka"],
+    items: ["PostgreSQL", "H2", "SQL"],
   },
   {
-    category: "Cloud & Infrastructure",
+    category: "Tools & Infrastructure",
     icon: Cloud,
-    items: ["AWS", "Kubernetes", "Docker", "Terraform"],
+    items: ["Docker", "Git", "Nginx Proxy Manager"],
   },
   {
-    category: "Architecture & DevOps",
-    icon: Server,
-    items: ["Microservices", "CI/CD", "gRPC", "GraphQL", "REST"],
+    category: "Scripting & Shell",
+    icon: Terminal,
+    items: ["Shell Scripting", "CMD", "PowerShell"],
   },
 ];

@@ -1,6 +1,6 @@
 export const aboutData = {
   paragraph1:
-    "I'm a backend engineer obsessed with performance, architecture, and writing clean, scalable code. I build robust systems that silently power the things you use every day.",
+    "I am a detail-oriented, organized, and meticulous Software Engineer from Porto, Portugal with a Bachelor of Science from ISEP. I work at a fast pace to meet tight deadlines and thrive as an enthusiastic team player.",
   paragraph2:
-    "When I'm not optimizing queries or wrestling with microservices, you'll find me exploring new technologies, contributing to open-source, or analyzing system metrics just for fun.",
+    "With a strong foundation in Python, TypeScript, and Java, I enjoy building robust applications, optimizing deployment workflows with Docker, and designing scalable system architectures.",
 };
