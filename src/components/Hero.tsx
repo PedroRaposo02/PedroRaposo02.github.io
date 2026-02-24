@@ -111,6 +111,10 @@ export default function Hero() {
         >
           <motion.a 
             href="#projects"
+            onClick={(e) => { 
+              e.preventDefault(); 
+              document.querySelector('#projects')?.scrollIntoView({ behavior: 'smooth' }); 
+            }}
             variants={buttonVariants}
             whileHover="hover"
             whileTap="tap"
@@ -121,6 +125,10 @@ export default function Hero() {
           
           <motion.a 
             href="#contact"
+            onClick={(e) => { 
+              e.preventDefault(); 
+              document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' }); 
+            }}
             variants={buttonVariants}
             whileHover="hover"
             whileTap="tap"
