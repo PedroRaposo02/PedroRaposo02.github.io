@@ -29,6 +29,3 @@ npm run dev
 
 ## Structure
 All personalized data (Bio, Experience, Projects) is managed in the `src/data/` folder, separating content from component logic for easy updates.
-
-## Deployment
-This project is configured for **Static Export** (`output: "export"`) in `next.config.ts`, making it perfectly suited for GitHub Pages. For detailed deployment instructions, refer to the included deployment guide.
